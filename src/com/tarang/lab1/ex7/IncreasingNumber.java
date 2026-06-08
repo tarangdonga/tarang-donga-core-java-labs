@@ -2,7 +2,7 @@ package com.tarang.lab1.ex7;
 
 public class IncreasingNumber {
 
-	public static boolean isIncreasingNumber(int number) {
+	public static boolean checkNumber(int number) {
 		if (number < 10) {
 			return true;
 		}
@@ -29,9 +29,9 @@ public class IncreasingNumber {
 		int test2 = 13542;
 		int test3 = 7;
 
-		System.out.println(test1 + ": " + IncreasingNumber.isIncreasingNumber(test1));
-		System.out.println(test2 + ": " + IncreasingNumber.isIncreasingNumber(test2));
-		System.out.println(test3 + ": " + IncreasingNumber.isIncreasingNumber(test3));
+		System.out.println(test1 + ": " + IncreasingNumber.checkNumber(test1));
+		System.out.println(test2 + ": " + IncreasingNumber.checkNumber(test2));
+		System.out.println(test3 + ": " + IncreasingNumber.checkNumber(test3));
 
 	}
 

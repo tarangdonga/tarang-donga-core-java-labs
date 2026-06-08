@@ -2,7 +2,7 @@ package com.tarang.lab1.ex8;
 
 public class PowerOfTwo {
 
-	public static boolean isPowerOfTwo(long number) {
+	public static boolean checkNumber(long number) {
 		if (number <= 0) {
 			return false;
 		}
@@ -15,8 +15,8 @@ public class PowerOfTwo {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(16 + " is power of 2? " + PowerOfTwo.isPowerOfTwo(16));
-		System.out.println(18 + " is power of 2? " + PowerOfTwo.isPowerOfTwo(18));
+		System.out.println(16 + " is power of 2? " + PowerOfTwo.checkNumber(16));
+		System.out.println(18 + " is power of 2? " + PowerOfTwo.checkNumber(18));
 
 	}
 
