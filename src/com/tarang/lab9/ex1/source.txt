@@ -1,0 +1,5 @@
+Java is a programming language.
+It is object oriented.
+Threads are useful in Java.
+File handling is important.
+This is sample data for testing.
