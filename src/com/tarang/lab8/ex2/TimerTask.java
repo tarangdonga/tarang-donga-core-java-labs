@@ -10,7 +10,7 @@ public class TimerTask implements Runnable {
 			while (true) {
 				System.out.println("Timer: " + seconds + " seconds elapsed");
 
-				Thread.sleep(10000); // 10 seconds delay
+				Thread.sleep(10000);
 				seconds += 10;
 			}
 		} catch (InterruptedException e) {
